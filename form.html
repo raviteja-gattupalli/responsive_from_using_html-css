@@ -1,0 +1,101 @@
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+<style>
+
+body{
+
+    background-color: powderblue;
+}
+.form{
+
+
+    margin:50px;
+    border:10px dashed darkgrey;
+    padding:20px;
+    display: block;
+    background-color:snow;
+   
+
+}
+
+.block{
+
+    display: block;
+    
+}
+
+.submit{
+
+    border-style: double;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    height:50px;
+    width:100px;
+    
+    
+}
+.Reset{
+
+border-style: double;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+background-color: orange;
+height:50px;
+width:100px;
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="form">
+
+    <form action="#" method="POST" >
+
+        <label class="block" for="uname">User Name:</label>
+           <input   type="text"id="uname" required>
+           <br><br>
+           <label  class="block" for="email">Enter your email:</label>
+        
+           <input type="email" id="email" name="email" required><br><br>
+        <label  class="block" for="upwd">Password:</label>
+         <input type="password" id="upwd"><br><br>
+         <p class="block"><strong>Gender:</strong></p>
+         <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <p class="block"><strong>Select Ur education Level:</strong></p>
+        
+         <input type="checkbox" id="class 12" name="class12" value="class12">
+         <label for="class12"> Complted class12</label><br>
+         <input type="checkbox" id="UG" name="ug" value="ug">
+         <label for="ug"> Complted Undergraduation</label><br>
+         <input type="checkbox" id="pg" name="pg" value="pg">
+         <label for="pg"> Complted Postgraduation</label>
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+        <br><br><br>
+        <label   for="resume"><strong>Select a resume:</strong></label>
+  <input type="file" id="resume" name="resume"><br><br>
+         <br>
+        <br>
+         <input  class="submit" type="submit" value="Submit">
+         <input class="reset" type="reset">
+
+    </form>
+</div>
+
+</body>
